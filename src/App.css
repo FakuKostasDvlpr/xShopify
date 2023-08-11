@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@500&family=Rajdhani:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1b1b1b;
+}
+

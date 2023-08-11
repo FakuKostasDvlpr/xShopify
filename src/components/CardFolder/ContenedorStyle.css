@@ -1,0 +1,13 @@
+ #Contenedor{
+    background-color: #edede9;
+}
+
+.addButton{
+    cursor: pointer;
+    color: #5e8e3e;
+}
+
+.Favorite{
+    color: #5e8e3e;
+    cursor: pointer;
+}
