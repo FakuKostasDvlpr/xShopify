@@ -9,13 +9,18 @@ export const ContHeader = styled.div`
     text-align: center;
     flex-wrap: wrap;
     border-bottom: 4px solid #5e8e3e;
+`
 
-   && .AddButton{
+export const AddContainer = styled.div`
+    display: flex;
+    width: 100%;
+    max-width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    && .AddButton{
         cursor: pointer;
         color: #95BF47;
-        width: 100%;
-        max-width: 40px;
-        height: 40px;
         align-items: center;
         justify-content: center;
     }

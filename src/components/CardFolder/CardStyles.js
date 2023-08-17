@@ -4,12 +4,10 @@ export const Container = styled.div`
     display: flex;
     width: 100%;
     flex-direction: column;
-    max-width: 324px;
-    margin-bottom: 30px;
+    max-width: 390px;
+    margin-bottom: 50px;
     border-radius: 24px;
     color: black;
-    justify-content: center;
-    align-items: center;
     margin-top: 50px;
     background-color: #edede9;
     flex-wrap: wrap;
@@ -17,20 +15,42 @@ export const Container = styled.div`
         font-family: 'Rajdhani', sans-serif;
     }
 `
-export const ContainerIcon = styled.div`
+export const EditContainer = styled.div`
     display: flex;
-    justify-content: flex-start;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
     padding: 10px;
-    align-items: flex-end;
+    .EditButton{
+        cursor: pointer;
+        color: #95BF47;
+    }
+    
+    .FavoriteButton{
+        cursor: pointer;
+        color: #95BF47;
+    }
+
+`
+export const EditIconContainer = styled.div`
+    display: flex;
+    border: 4px solid #95BF47;
+    border-radius: 14px;
+    justify-content: flex-end;
+    padding: 5px;
+    align-items: end;
 `
 
 export const ImgContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
    && img{
-    max-width: 100%;
+    width: 100%;
+    max-width: 260px;
     max-height: 100%;
     object-fit: cover
     }
@@ -39,7 +59,7 @@ export const TextContainer = styled.div`
     display: flex;
     font-size: 20px;
     font-weight: bold;
-    margin-top: 50px;
+    justify-content: center;
     text-align: center;
     && h2{
     font-size: 32px;
@@ -73,14 +93,27 @@ export const FlexContainer = styled.div`
 
 
 `
-export const ContainerFavorite = styled.div`
+export const AddToCart = styled.div`
+    display: flex;
     border-radius: 10px;
-    border: 3px dashed rgb(94, 142, 62);
-    padding: 10px;
-    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 30px;
+    /* eliminar espacio de hover, evitar errores */
     
-    && :hover{
-        color: #ffd500;
+`
+
+export const ContainerAddCart = styled.div`
+    display: flex;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 14px;
+    transition: all .2s ease-in-out;
+    &&:hover{
+        -webkit-box-shadow: 1px 2px 37px 13px rgba(149,191,71,1);
+        -moz-box-shadow: 1px 2px 37px 13px rgba(149,191,71,1);
+        box-shadow: 1px 2px 37px 13px rgba(149,191,71,1);
     }
 `
 

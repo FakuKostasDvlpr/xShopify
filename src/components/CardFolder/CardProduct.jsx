@@ -1,18 +1,24 @@
 import React from 'react'
-import {IoIosAddCircle} from "react-icons/io"
-import {BsFillBookmarkStarFill} from "react-icons/bs"
+import {BiEditAlt} from "react-icons/bi"
 import "./ContenedorStyle.css"
-import { Container, ContainerCaracts, ContainerIcon, ImgContainer, TextContainer, FlexContainer, PriceContainer, ContainerPrice, ContainerFavorite } from './CardStyles'
+import { Container, ContainerCaracts, ImgContainer, TextContainer, FlexContainer, PriceContainer, ContainerPrice, AddToCart, EditContainer, EditIconContainer, ContainerAddCart } from './CardStyles'
+import {GiRoundStar} from "react-icons/gi"
+
 const CardFuture = ({img, title, category, price, desc, tipo}) => 
 {
   return (
   <Container>
+      <EditContainer>
+          <EditIconContainer>
+            <BiEditAlt className='EditButton' fontSize={35}/>
+          </EditIconContainer>
+          <EditIconContainer>
+            <GiRoundStar className='FavoriteButton' fontSize={35}/>
+          </EditIconContainer>
+      </EditContainer>
     <TextContainer>
       <h2>{title}</h2>
     </TextContainer>
-      <ContainerIcon>
-          <IoIosAddCircle className='addButton' fontSize={45}/>
-      </ContainerIcon>
       <ImgContainer>
           <img src={img} alt="ImageData" />
       </ImgContainer>
@@ -24,16 +30,16 @@ const CardFuture = ({img, title, category, price, desc, tipo}) =>
               <p># {tipo}</p>
             </FlexContainer>
         </ContainerCaracts>
-      <ContainerPrice>
+      <ContainerPrice className='flex-col mb-10'>
         <PriceContainer>
           <p>{price}</p>
         </PriceContainer>
-        <ContainerFavorite>
-          <BsFillBookmarkStarFill id='mark' color='gray' fontSize={40} />
-        </ContainerFavorite>
       </ContainerPrice>
-
-
+        <AddToCart>
+          <ContainerAddCart>
+            <p>Agregar al carrito</p>
+          </ContainerAddCart>
+        </AddToCart>
   </Container>
   )
 }

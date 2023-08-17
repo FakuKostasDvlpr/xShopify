@@ -3,6 +3,7 @@ import styled from "styled-components"
 export const Container = styled.div `
     display: flex;
     width: 100%;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 30px;
 `
@@ -15,8 +16,9 @@ export const CategoryBoxs = styled.div`
 export const ButtonCat = styled.div`
     display: flex;
     gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
     padding: 30px;
-    
 `
 export const BoxButton = styled.div `
     display: flex;
@@ -27,9 +29,15 @@ export const BoxButton = styled.div `
     border: 4px dashed #95BF47;
         &&:hover{
             color: #ccff33;
-            box-shadow: -1px 2px 5px 21px rgba(50,50,50,0.47);
-            -webkit-box-shadow: -1px 2px 5px 21px rgba(50,50,50,0.47);
-            -moz-box-shadow: -1px 2px 5px 21px rgba(50,50,50,0.47);
+            box-shadow: 2px 2px 32px 23px rgba(0,0,0,0.78);
+            -webkit-box-shadow: 2px 2px 32px 23px rgba(0,0,0,0.78);
+            -moz-box-shadow: 2px 2px 32px 23px rgba(0,0,0,0.78);
+        }
+        .favorite{
+            color: black;
+        }
+       :hover .favorite{
+            color: #ffd60a;
         }
 `
 export const Button = styled.button`
