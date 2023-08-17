@@ -5,7 +5,8 @@ export const products = [
 		desc: "Inalambrico",
 		img: "https://redragon.es/content/uploads/2021/04/KUMARA.png",
 		price: "$34.999",
-		category: "Teclado",
+		category: "Tech",
+		tipo: "Teclado"
 	},
 	{
 		id: 2,
@@ -13,7 +14,8 @@ export const products = [
 		desc: "Gamer",
 		img: "https://www.liontech-gaming.com/wp-content/uploads/2021/12/SILLA-GAMER-CORSAIR-T3-RUSH-CHARCOAL.webp",
 		price: "$204.000",
-		category: "Silla",
+		category: "Tech",
+		tipo: "Silla"
 	},
 	{
 		id: 3,
@@ -21,7 +23,8 @@ export const products = [
 		desc: "Gamer",
 		img: "https://www.clickea.com.ar/admin/productos/05d5d10cb00661980f049ad1b4edf624.jpg ",
 		price: "$4.600",
-		category: "mousepad",
+		category: "Tech",
+		tipo: "Auriculares"
 	},
 	{
 		id: 4,
@@ -29,7 +32,8 @@ export const products = [
 		desc: "27 Pulgadas",
 		img: "https://image.benq.com/is/image/benqco/gw2780-left45-2?$ResponsivePreset$&fmt=png-alpha",
 		price: "$119.000",
-		category: "Monitor",
+		category: "Tech",
+		tipo: "Monitor"
 	},
 	{
 		id: 5,
@@ -37,14 +41,16 @@ export const products = [
 		desc: "120x60x70",
 		img: "https://cougargaming.com/_cgrwdr_/wwdpp/wp-content/uploads/2020/07/mars-list-2.png",
 		price: "$134.640",
-		category: "Escritorio Gamer",
+		category: "SetUp",
+		tipo: "Escritorio"
 	},
 	{
-		id: 5,
+		id: 6,
 		title: "Air Jordan 1 Mid Alternate Bred Toe",
-		desc: "120x60x70",
+		desc: "Red & Black",
 		img: "https://izicop.com/cdn/shop/products/air-jordan-1-mid-alternate-bred-toe-1-1000.png?v=1656583149",
 		price: "$134.640",
-		category: "Escritorio Gamer",
+		category: "Ropa",
+		tipo: "Zapatillas"
 	},
 ];
