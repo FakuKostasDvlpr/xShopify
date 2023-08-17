@@ -5,9 +5,9 @@ const Title = () => {
   return (
     <ContHeader>
      <img src="https://www.ecommercethesis.com/wp-content/uploads/2021/06/Shopify.png" alt="" />
-     <div>
+     <div className='AddButton flex justify-center '>
+      <IoMdAddCircle fontSize={40}/>
      </div>
-      <IoMdAddCircle color='white' fontSize={40}/>
     </ContHeader>
   )
 }

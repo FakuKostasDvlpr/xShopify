@@ -22,14 +22,14 @@ export const BoxButton = styled.div `
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all .3s ease-in-out;
+    transition: all .2s ease-in-out;
     border-radius: 20px;
-    border: 4px dashed #95bf47;
+    border: 4px dashed #95BF47;
         &&:hover{
-            color: #95bf47;
-            box-shadow: 2px 0px 5px 19px rgba(0,0,0,0.25) ;
-            -webkit-box-shadow: 2px 0px 5px 19px rgba(0,0,0,0.25) ;
-            -moz-box-shadow: 2px 0px 5px 19px rgba(0,0,0,0.25) ;
+            color: #ccff33;
+            box-shadow: -1px 2px 5px 21px rgba(50,50,50,0.47);
+            -webkit-box-shadow: -1px 2px 5px 21px rgba(50,50,50,0.47);
+            -moz-box-shadow: -1px 2px 5px 21px rgba(50,50,50,0.47);
         }
 `
 export const Button = styled.button`
