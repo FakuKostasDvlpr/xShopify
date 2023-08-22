@@ -1,0 +1,12 @@
+<!-- <BoxButton>
+            <Button onClick={()=> setId(products)}><TiFlashOutline fontSize={45}/></Button>
+          </BoxButton>
+          <BoxButton>
+            <Button><AiFillHome fontSize={45}/></Button>
+          </BoxButton>
+          <BoxButton>
+            <Button><LuShirt fontSize={45}/></Button>
+          </BoxButton>
+          <BoxButton>
+            <Button><GiRoundStar className='favorite' fontSize={45}/></Button>
+</BoxButton> -->

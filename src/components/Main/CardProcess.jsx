@@ -1,9 +1,8 @@
-import React from 'react'
 import { products } from '../../data/data'
 import CardFuture from '../CardFolder/CardProduct'
 
 
-const CardProcess = () => {
+const CardProcess = () => { 
   return (
 <>
   { 

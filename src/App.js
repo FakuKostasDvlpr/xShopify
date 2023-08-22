@@ -8,11 +8,11 @@ import ButtonCategories from "./components/Categories/ButtonCategories";
 function App() {
   return (
   <>
-  <Title/>
-    <ButtonCategories/>  
-      <Layout>
-        <CardProcess/>
-      </Layout>
+    <Title/>
+      <ButtonCategories/>  
+        <Layout>
+          <CardProcess/>
+        </Layout>
   </>
   );
 }

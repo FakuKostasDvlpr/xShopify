@@ -6,7 +6,7 @@ export const products = [
 		img: "https://redragon.es/content/uploads/2021/04/KUMARA.png",
 		price: "$34.999",
 		category: "Tech",
-		tipo: "Teclado"
+		tipo: "Teclado,"
 	},
 	{
 		id: 2,
@@ -15,7 +15,8 @@ export const products = [
 		img: "https://www.liontech-gaming.com/wp-content/uploads/2021/12/SILLA-GAMER-CORSAIR-T3-RUSH-CHARCOAL.webp",
 		price: "$204.000",
 		category: "Tech",
-		tipo: "Silla"
+		tipo: "Silla",
+		
 	},
 	{
 		id: 3,
@@ -54,3 +55,7 @@ export const products = [
 		tipo: "Zapatillas"
 	},
 ];
+
+export const updateProducts = (newProducts) => {
+	products = newProducts;
+  };
