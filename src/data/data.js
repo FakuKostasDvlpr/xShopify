@@ -55,7 +55,3 @@ export const products = [
 		tipo: "Zapatillas"
 	},
 ];
-
-export const updateProducts = (newProducts) => {
-	products = newProducts;
-  };

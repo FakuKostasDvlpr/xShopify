@@ -4,6 +4,7 @@ import "./ContenedorStyle.css"
 import { Container, ContainerCaracts, ImgContainer, TextContainer, FlexContainer, PriceContainer, ContainerPrice, AddToCart, EditContainer, EditIconContainer, ContainerAddCart } from './CardStyles'
 import {GiRoundStar} from "react-icons/gi"
 
+
 const CardFuture = ({img, title, category, price, desc, tipo}) => 
 {
   return (
